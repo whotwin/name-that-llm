@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 比赛数据（本地存放，不入库）
+name-that-llm/
+# 特征提取产物，可用 tools/build_features.py 重新生成
+artifacts/
+# Claude Code 本地配置
+.claude/
